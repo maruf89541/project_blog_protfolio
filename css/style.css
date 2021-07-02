@@ -1,0 +1,83 @@
+body{
+    margin: 20px;
+}
+h3{
+    padding: 20px;
+}
+.blog-header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+h1{
+    margin-bottom: 5px;
+}
+.blog-div{
+    text-align: justify;
+    width: 100%;
+    margin-top: 50px;
+    border: 2px rgb(222, 212, 212) solid;
+    padding: 0 0 20px 0;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+
+    
+}
+#bg{
+    width: 100%;
+}
+.blog-div-2{
+        padding: 0px;
+}
+.blog-div-2{
+        font-family: fantasy;
+        font-size: 16px;
+
+}
+.blog-div-3{
+    padding: 20px;
+    padding-top: 0;
+}
+.blog-div-4{
+        float: left;
+        width: 50%;
+
+} 
+.comment-div{
+        float: right;
+
+
+}  
+.button-r{
+    background-color: rgba(38, 195, 200, 0.958);
+    color: black;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: salmon;
+    transition-duration: 0.5s;
+   
+}
+button:hover{
+    background-color: darkgray;
+    color: white;
+
+}
+.container-div-1{
+    float: right;
+    width: 30%;
+    margin:;
+}
+.container-div-2{
+    float: left;
+    width: 68%;;
+}
+li{
+    list-style: none;
+    
+}
+li:hover{
+    background-color: darkgrey;
+    color: white;
+    border-radius: 5px;
+    border-color: dimgrey;
+}
