@@ -15,7 +15,7 @@ h1{
 .blog-div{
     text-align: justify;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     border: 2px rgb(222, 212, 212) solid;
     padding: 0 0 20px 0;
     background-color: blanchedalmond;
@@ -73,11 +73,30 @@ button:hover{
 }
 li{
     list-style: none;
-    
+    height: 60px;
+    contain: size;
+    text-align: -webkit-left;
+    padding: 12px 5px 0 10px;
 }
 li:hover{
     background-color: darkgrey;
     color: white;
     border-radius: 5px;
     border-color: dimgrey;
+}
+h4{
+    background-color:darkgrey ;
+    border: solid 1px dimgrey;
+    height: 40px;
+    padding: 12px 0px 0px 5px ;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.post-div-1{
+    border: solid 2px rgb(140, 134, 134);
+    background-color: wheat;
+    margin-top: 40px;
+    border-radius: 2px;
 }
